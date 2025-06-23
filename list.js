@@ -1,3 +1,12 @@
+/*
+    Redis lists are linked lists of string values
+    * LPUSH adds a new element to the head of a list; RPUSH adds to the tail.
+    * LPOP removes and returns an element from the head of a list; RPOP does the same but from the tails of a list.
+    * LLEN returns the length of a list.
+    * LMOVE atomically moves elements from one list to another.
+    * LRANGE extracts a range of elements from a list.
+    * LTRIM reduces a list to the specified range of elements.
+*/
 
 const client = require('./client');
 
